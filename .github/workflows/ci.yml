@@ -14,3 +14,4 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
+# 我也不知道为什么失败了，调试1
