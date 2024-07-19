@@ -1,0 +1,42 @@
+# Project Information
+site_name: J-Physics Wiki
+site_description: 初中物理wiki
+
+# 导航
+nav:
+  - 介绍:
+    - 开始阅读: index.md
+    - 方针: intro/policy.md
+
+# Theme
+theme:
+  name: material
+  language: 'zh'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  include_search_page: false
+  search_index_only: true
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs.sticky
+  font:
+    text: 'Noto Sans CJK SC'
+    code: 'Fira Mono'
