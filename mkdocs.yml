@@ -7,6 +7,15 @@ nav:
   - 介绍:
     - 开始阅读: index.md
     - 方针: intro/policy.md
+    - 参与编写: intro/how.md
+  - 运动学:
+    - 介绍: kinematics/intro.md
+  - 力学:
+    - 介绍: mechanics/intro.md
+  - 热学:
+    - 介绍: calorifics/intro.md
+  - 电学: 
+    - 介绍: electricity/intro.md
 
 # Theme
 theme:
