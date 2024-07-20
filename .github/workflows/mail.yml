@@ -1,21 +1,21 @@
-name: 'Notice Reviewers'
+#name: 'Notice Reviewers'
 
-on:
-  pull_request:
-    types: [opened, reopened]
+#on:
+#  pull_request:
+#    types: [opened, reopened]
 
-jobs:
-  bot:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Send mail'
-        uses: dawidd6/action-send-mail@master
-        with:
-          server_address: smtp.163.com
-          server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: A new PR
-          html_body: notice.txt
-          to: java_utils@outlook.com
-          from: GitHub Actions
+#jobs:
+#  bot:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: 'Send mail'
+#        uses: dawidd6/action-send-mail@master
+#        with:
+#          server_address: smtp.163.com
+#          server_port: 465
+#          username: ${{ secrets.MAIL_USERNAME }}
+#          password: ${{ secrets.MAIL_PASSWORD }}
+#          subject: A new PR
+#          html_body: notice.txt
+#          to: java_utils@outlook.com
+#          from: GitHub Actions
