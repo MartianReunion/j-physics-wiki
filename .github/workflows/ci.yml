@@ -29,3 +29,4 @@ jobs:
       - run: mkdocs gh-deploy --force
 # 我也不知道为什么失败了，调试1
 # 又TM失败了，调试2，这东西坑太TM大了，github的安全政策改了，原始文档也改了，但中文翻译没有
+# 前车之鉴：不可以开启gh-pages分支的强制推送保护
