@@ -1,6 +1,11 @@
 # Project Information
 site_name: J-Physics Wiki
 site_description: 初中物理wiki
+site_url: https://martianreunion.github.io/j-physics-wiki/
+
+# Repository
+repo_name: 'MartianReunion/j-physics-wiki'
+repo_url: 'https://github.com/MartianReunion/j-physics-wiki'
 
 # 导航
 nav:
@@ -55,7 +60,10 @@ theme:
   font:
     text: 'Noto Sans CJK SC'
     code: 'Fira Mono'
+
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
