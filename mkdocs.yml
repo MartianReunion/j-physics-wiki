@@ -1,6 +1,11 @@
 # Project Information
 site_name: J-Physics Wiki
 site_description: 初中物理wiki
+site_url: https://martianreunion.github.io/j-physics-wiki/
+
+# Repository
+repo_name: 'MartianReunion/j-physics-wiki'
+repo_url: 'https://github.com/MartianReunion/j-physics-wiki'
 
 # 导航
 nav:
@@ -9,13 +14,19 @@ nav:
     - 方针: intro/policy.md
     - 参与编写: intro/how.md
   - 运动学:
-    - 介绍: kinematics/intro.md
+    - 运动学介绍: kinematics/intro.md
+  - 声学:
+    - 声学介绍: acoustics/intro.md
+  - 光学:
+    - 光学介绍: optics/intro.md
   - 力学:
-    - 介绍: mechanics/intro.md
+    - 力学介绍: mechanics/intro.md
   - 热学:
-    - 介绍: calorifics/intro.md
+    - 热学介绍: calorifics/intro.md
   - 电学: 
-    - 介绍: electricity/intro.md
+    - 电学介绍: electricity/intro.md
+  - 磁学:
+    - 磁学介绍: magnetism/intro.md
 
 # Theme
 theme:
@@ -49,3 +60,10 @@ theme:
   font:
     text: 'Noto Sans CJK SC'
     code: 'Fira Mono'
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
