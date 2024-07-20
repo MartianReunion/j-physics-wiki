@@ -36,13 +36,19 @@
 
 在 clone 下来的本地分支仓库中继续进行修改，并提交（commit）以及推送（push）这些更改即可。你的更改会被自动追加在 Pull Request 中。
 
+!!! note "给管理员的特别提醒"
+
+    为了保持内容的完整性与安全性，本仓库开启了`main`分支保护，虽然你可以直接写入仓库，但你必须通过PR向`main`分支添加内容。
+
 #### 预览变更
 
-您在本地写好md文件就可以用 **vecode** 或者 **typora** 等软件预览变更。注意检查格式问题。
+您在本地写好md文件就可以用 **vscode**或**typora**等软件预览变更。注意检查格式问题。
+
+如果你的软件不能预览Mkdocs的一些扩展语法，或者你想预览页面部署后的状态，你可以参考[本地部署](#本地部署)这一节的内容。
 
 #### 对于目录和引用的变更
 
-通常情况下，如果您需要添加一个新页面，或者修改已有页面在目录中的链接，您就需要对 [`mkdocs.yml`](https://github.com/OI-wiki/OI-wiki/blob/master/mkdocs.yml) 文件作出改动。
+通常情况下，如果您需要添加一个新页面，或者修改已有页面在目录中的链接，您就需要对 [`mkdocs.yml`](https://github.com/MartianReunion/j-physics-wiki/blob/main/mkdocs.yml) 文件作出改动。
 
 添加新页面可以参考既有的格式。但除非是进行重构或修正名词，否则 **我们不建议对既有页面的引用链接进行修改**，Pull Requests 中不必要的修改也将被驳回。
 
@@ -55,7 +61,7 @@
 
 对于 commit 摘要，请按照如下格式书写：
 
-`<修改类型>(<文件名>): <修改的内容>`
+`<修改类型>(<文件名>或<可以描述更改的页面的文字内容>): <修改的内容>`
 
 修改类型分为如下几类：
 
@@ -73,16 +79,47 @@
 
 对于 Pull Request 的标题，推荐使用如下格式书写：
 
-`<修改类型>(<文件名>): <修改的内容> (<对应 issue 的编号>) `
+`<修改类型>(<文件名>或<可以描述更改的页面的文字内容>): <修改的内容> (<对应 issue 的编号>) `
 
 修改类型与 Commit 一样。
 
 示例：
 
 - `add(mechanics/intro): 缝缝补补又三年`
-- `upd(mechanics/gravity) 把重力的G写成F，已修改 (#1145)`
+- `upd(mechanics/gravity): 把重力的G写成F，已修改 (#1145)`
 - `ref(electricity/ohms_law): 整理页面内容`
 - `rol(electricity/intro): 写错了回滚一下`
+- `add(欧姆定律): 编写了欧姆定律页面`
+
+如果你的修改比较多或者杂，难以在标题中体现修改的名称，你可以使用`something`代替文件名，但你必须**仔细描述**你的修改内容。
+
+例如：
+
+- `upd(something): 修改了错别字(#1919)`
+
+### 本地部署
+
+本项目使用[Mkdocs](https://github.com/mkdocs/mkdocs)部署在[martianreunion.github.io/j-physics-wiki](https://martianreunion.github.io/j-physics-wiki/)。
+
+为了能够在预览编辑后的**初中物理Wiki**，你可以在本地部署它。这需要你有Python3。
+
+在克隆本项目后请使用
+
+```bash
+pip install mkdocs-material
+```
+
+安装必要的运行环境。
+
+在此以后，你就可以通过以下命令启动一个运行在本地的服务器预览你的更改：
+
+```bash
+mkdocs serve
+```
+
+在实际操作中，我们更推荐你在编辑过程中一直运行本地服务器。它会在你每一次保存文件后自动刷新页面，以便你随时查看最终的效果。
+
+如果你有遇到一些问题，你可以阅读[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)的官方文档。
 
 ### 协作流程
 

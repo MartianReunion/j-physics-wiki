@@ -55,3 +55,7 @@ theme:
   font:
     text: 'Noto Sans CJK SC'
     code: 'Fira Mono'
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
