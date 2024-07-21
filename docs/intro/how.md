@@ -4,6 +4,16 @@
 
 这篇文章将主要叙述参与 **初中物理 Wiki** 编写的写作过程。请您在撰稿或者修正 Wiki 页面以前，仔细阅读以下内容，以帮助您完成更高质量的内容。
 
+## 交流方式
+
+我们主要采用Kook进行交流。
+
+我们的[kook群组](https://kook.vip/FF2sLB)为 [kook.vip/FF2sLB](https://kook.vip/FF2sLB)。
+
+!!! note "关于其他交流方式"
+
+    本来有QQ或者discord可以考虑，但介于交流的体验与难度，我们最终选择了Kook
+
 ## 贡献指南
 
 在开始编写一段内容之前，请查阅 [Issues](https://github.com/MartianReunion/j-physics-wiki/issues)，确认没有别人在做相同的工作之后，开个 [新 issue](https://github.com/MartianReunion/j-physics-wiki/issues/new) 记录待编写的内容。
@@ -124,7 +134,9 @@ mkdocs serve
 ### 协作流程
 
 1. 在收到一个新的 Pull Request 之后，管理员会进行审查。在我们的[kook群组](https://kook.vip/FF2sLB)，管理员会在“管理员会议室”频道讨论。并且审查您的PR。
+
 2. 如果是重大修改，还要交由kook频道内全体用户审议，过半同意即为通过。如果有一些人离线，则在线人员中过半即通过。
+
 3. 然后管理员会将PR合并到main分支。同时github action 会自动构建 wiki 网页。
 
 4. 若出现问题，由管理员负责回滚操作。如果提交PR的人出现3次以上回滚情况，就会被陶片放逐1天。
