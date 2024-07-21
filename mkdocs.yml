@@ -13,6 +13,8 @@ nav:
     - 开始阅读: index.md
     - 方针: intro/policy.md
     - 参与编写: intro/how.md
+  - 网站介绍: 
+    - 物理量参考: intro_website/standard.md  
   - 运动学:
     - 运动学介绍: kinematics/intro.md
   - 声学:
@@ -26,7 +28,7 @@ nav:
   - 电学: 
     - 电学介绍: electricity/intro.md
   - 磁学:
-    - 磁学介绍: magnetism/intro.md
+    - 磁学介绍: magnetism/intro.md  
 
 # Theme
 theme:
