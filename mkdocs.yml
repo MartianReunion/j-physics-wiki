@@ -1,0 +1,70 @@
+# Project Information
+site_name: 初中物理wiki
+site_description: J-Physics Wiki
+site_url: https://martianreunion.github.io/j-physics-wiki/
+
+# Repository
+repo_name: 'MartianReunion/j-physics-wiki'
+repo_url: 'https://github.com/MartianReunion/j-physics-wiki'
+
+# 导航
+nav:
+  - 介绍:
+    - 开始阅读: index.md
+    - 教科书逻辑目录: intro/textbook.md
+    - 项目方针: intro/policy.md
+    - 如何参与编写: intro/how.md
+    - 格式手册: intro/format.md
+    - 联系方式: intro/contact.md
+  - 测量仪器:
+    - 简介: measuring-instrument/intro.md
+    - 摘要: measuring-instrument/abstract.md
+    - 误差: measuring-instrument/error.md
+  - 速查表:
+    - 简介: qrt/intro.md
+    - 物理量: qrt/physical-quantity.md
+
+# Theme
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: 'zh'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  include_search_page: false
+  search_index_only: true
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs.sticky
+  font:
+    text: 'Noto Sans CJK SC'
+    code: 'Fira Mono'
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - ezlinks
