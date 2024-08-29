@@ -23,6 +23,8 @@ nav:
   - 速查表:
     - 简介: qrt/intro.md
     - 物理量: qrt/physical-quantity.md
+  - 考试相关:
+    - 简介: exam/intro.md
 
 # Theme
 theme:
