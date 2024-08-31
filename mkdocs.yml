@@ -27,6 +27,7 @@ nav:
     - 简介: exam/intro.md
     - 快速弹簧算法(FSA): exam/fsa.md
     - 快速单位转换: exam/fcu.md
+    - 中考要求: exam/for_zk.md
 
 # Theme
 theme:
