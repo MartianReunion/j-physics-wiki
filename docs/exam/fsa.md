@@ -4,7 +4,7 @@
 这个算法由[BsoltB](https://github.com/BsoltB)发明，用于解决浮力的弹簧类问题。
 ## FSA第一部分：加水减水
 ### 公式推导
-先看一张图：![图1-1](https://vip.helloimg.com/i/2024/08/31/66d2b66d1a18e.png)
+先看一张图：![图1-1](assets/exam/fsa/1_1.png)
 
 其中蓝色是原来的水，红色+绿色是加的水。这部分水加进去会影响弹簧长度，则有长度变化量$\Delta L$。并且物体也会移动，则有移动距离$\Delta h_{移}$。
 
@@ -18,7 +18,7 @@ $$\Delta L + \Delta h_{移} = \Delta h_{水}$$
 
 继续看第二张图：
 
-![图1-2](https://vip.helloimg.com/i/2024/08/31/66d2baee6fb17.png)
+![图1-2](assets/exam/fsa/1_2.png)
 
 图中我们对物体进行了受力分析，红色是 $G$，蓝色是 $F_{浮}$，绿色是 $F_{弹}$ ，我们发现物体处于平衡状态。所以 $G = F_{浮} + F_{弹}$（注：弹力也可能是竖直向下的，但不影响，看成负数即可）。进而我们推出 $\Delta F_{浮} = \Delta F_{弹}$。又因为 $\Delta F_{弹} = k \times \Delta L$，所以 $k \times \Delta L = \Delta F_{浮} = \rho_{液}gS_{物} \times \Delta h_{移}$。我们设 $k' = \rho_{液}gS_{物}$，出现我们的第三个式子：
 
