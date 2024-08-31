@@ -17,9 +17,9 @@ nav:
     - 格式手册: intro/format.md
     - 联系方式: intro/contact.md
   - 物理量:
-    - 简介: physical-quantity/intro.md
+    - 简介: physical-quantities/intro.md
     - 概念: 
-      - 国际单位制: physical-quantity/conception/si.md
+      - 国际单位制: physical-quantities/conception/si.md
   - 测量仪器:
     - 简介: measuring-instrument/intro.md
     - 有关概念:
