@@ -12,8 +12,8 @@
 
 ## 版权声明
 
-[![知识共享许可协议](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://gitee.com/link?target=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2F)  
-除特别注明外，项目中除了代码部分均采用[(Creative Commons BY-SA 4.0) 知识共享署名 - 相同方式共享 4.0 国际许可协议](https://gitee.com/link?target=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2Fdeed.zh)及附加的 [The Star And Thank Author License](https://github.com/zTrix/sata-license) 进行许可。
+![知识共享许可协议](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+除特别注明外，项目中除了代码部分均采用[(Creative Commons BY-SA 4.0) 知识共享署名 - 相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)及附加的 [The Star And Thank Author License](https://github.com/zTrix/sata-license) 进行许可。
 
 换言之，使用过程中您可以自由地共享、演绎，但是必须署名、以相同方式共享、分享时没有附加限制，
 
