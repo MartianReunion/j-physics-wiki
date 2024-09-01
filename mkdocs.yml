@@ -20,11 +20,11 @@ nav:
     - 简介: physical-quantities/intro.md
     - 概念: 
       - 国际单位制: physical-quantities/conception/si.md
-      - 长度: physical-quantities/conception/length.md
-      - 时间: physical-quantities/conception/time.md
-      - 质量: physical-quantities/conception/mass.md
-      - 电流: physical-quantities/conception/charge.md
-      - 温度: physical-quantities/conception/temperature.md
+    - 长度: physical-quantities/length.md
+    - 时间: physical-quantities/time.md
+    - 质量: physical-quantities/mass.md
+    - 电流: physical-quantities/charge.md
+    - 温度: physical-quantities/temperature.md
   - 测量仪器:
     - 简介: measuring-instrument/intro.md
     - 有关概念:

@@ -21,3 +21,5 @@
 关于本项目的交流方式，请查看[联系方式](intro/contact.md)。
 
 本项目受 [OI Wiki](https://oi-wiki.org/) 的启发，在编写过程中参考了诸多资料，在此一并致谢。（链表.png）
+
+![知识共享许可协议](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
