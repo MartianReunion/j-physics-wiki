@@ -11,7 +11,7 @@
 ??? note "BsoltB"
     [BsoltB](https://github.com/BsoltB)
     
-    $$ {\color{Blue} \beta}  {\color{Green} s^{\color{Orange} o} }  {\color{Blue} l_t}  {\color{Green} \beta }  $$
+    $$ {\Huge {\color{Blue} \beta}  {\color{Green} s^{\color{Orange} o} }  {\color{Blue} l_t}  {\color{Green} \beta } }   $$
     
 ??? note "MartianReunion"
     [MartianReunion](https://github.com/MartianReunion)
