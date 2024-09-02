@@ -31,9 +31,10 @@ nav:
     - 有关概念:
       - 误差: measuring-instrument/conception/error.md
       - 估读: measuring-instrument/conception/estimate-observing.md
-    - 摘要: measuring-instrument/abstract.md
+    - 通用: measuring-instrument/abstract.md
     - 误差: measuring-instrument/error.md
     - 刻度尺: measuring-instrument/ruler.md
+    - 温度计: measuring-instrument/thermometer.md
   - 速查表:
     - 简介: qrt/intro.md
     - 物理量: qrt/physical-quantity.md
