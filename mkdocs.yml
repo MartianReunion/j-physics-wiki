@@ -35,6 +35,7 @@ nav:
     - 误差: measuring-instrument/error.md
     - 刻度尺: measuring-instrument/ruler.md
     - 温度计: measuring-instrument/thermometer.md
+    - 弹簧测力计: measuring-instrument/sft.md
   - 速查表:
     - 简介: qrt/intro.md
     - 物理量: qrt/physical-quantity.md
