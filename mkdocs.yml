@@ -16,6 +16,7 @@ nav:
     - 如何参与编写: intro/how.md
     - 格式手册: intro/format.md
     - 联系方式: intro/contact.md
+    - 网站管理员: intro/administrator.md
   - 物理量:
     - 简介: physical-quantities/intro.md
     - 概念: 
@@ -30,9 +31,10 @@ nav:
     - 有关概念:
       - 误差: measuring-instrument/conception/error.md
       - 估读: measuring-instrument/conception/estimate-observing.md
-    - 摘要: measuring-instrument/abstract.md
+    - 通用: measuring-instrument/abstract.md
     - 误差: measuring-instrument/error.md
     - 刻度尺: measuring-instrument/ruler.md
+    - 温度计: measuring-instrument/thermometer.md
   - 速查表:
     - 简介: qrt/intro.md
     - 物理量: qrt/physical-quantity.md
