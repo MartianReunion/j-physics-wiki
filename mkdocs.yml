@@ -26,6 +26,7 @@ nav:
     - 质量: physical-quantities/mass.md
     - 电流: physical-quantities/charge.md
     - 温度: physical-quantities/temperature.md
+    - 力: physical-quantities/force.md
   - 测量仪器:
     - 简介: measuring-instrument/intro.md
     - 有关概念:
