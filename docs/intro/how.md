@@ -110,6 +110,7 @@
 ``` bash
 pip install mkdocs-material
 pip install mkdocs-ezlinks-plugin
+pip3 install mkdocs-git-authors-plugin
 ```
 
 安装必要的运行环境。
