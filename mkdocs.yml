@@ -94,6 +94,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - attr_list
+  - md_in_html
 
 plugins:
   - search

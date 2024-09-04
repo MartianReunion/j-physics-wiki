@@ -1,6 +1,7 @@
 # 温度计
 
-**温度计**是用来测量[温度](/physical-quantities/temperature.md)这一物理量的工具。
+**温度计**是用来测量[温度](/physical-quantities/temperature.md)这一物理量的工具。  
+本文重点介绍的是在初中物理中使用的**液体温度计**
 
 - 调零：⭕特殊温度计需要调零
 - 估读：❌通常不估读
@@ -31,6 +32,15 @@
 
 液体的热胀冷缩。
 
+## 误差分析
+
+- **仰视**读数使得读数**偏小**
+- **俯视**读数使得读数**偏大**
+
+原因如下图所示：
+
+![误差原因](/assets/measuring-instrument/thermometer/error.png){ width="300" }
+
 ## 特殊温度计
 
 ### 体温计
@@ -56,3 +66,39 @@
 
 - 需要放在腋下等地方，测量核心体温。
 - “不能拿出待测物体（人体）读数”这一要求作废
+
+### 伽利略温度计
+
+- 调零：❌不需要调零
+- 估读：⭕通常不估读
+- 特殊用法：✅有特殊注意事项
+
+下图是一个伽利略温度计：
+
+![伽利略温度计2](/assets/measuring-instrument/thermometer/Galileo1.jpg){ width="300" }
+
+它可以被简化为如下简图:
+
+![伽利略温度计2](/assets/measuring-instrument/thermometer/Galileo2.png){ width="300" }
+
+伽利略温度计的通过气体的热胀冷缩来测量测量温度，当温度上升气体膨胀后，上方球形容器内压强增大，液面下降。  
+所以可以总结为伽利略温度计中液面越高温度越低。
+
+## 其他温度计
+
+除此以外，当然还有通过其他方法语原理制作的温度计：
+
+- 数字式温度计：利用温度与物体的导电性的关系制作
+- 红外测温仪：测量物体发出的热辐射
+
+## Q&A
+
+??? anwser "为什么刻度是均匀的？"
+
+    温度计顶部是真空的，根据理想气体状态方程，体积和温度成正比关系。  
+    理想气体状态方程为高中物理知识，这里仅提及，不做介绍。
+
+## 参考资料与图片来源
+
+- 所有简图为MartianReunion自己制作
+- 伽利略温度计实物图由[Chatsam](https://commons.wikimedia.org/wiki/User:Chatsam)发布于维基共享资源库，[原始链接](https://nl.m.wikipedia.org/wiki/Bestand:Mus%C3%A9e_des_Arts_et_M%C3%A9tiers_thermoscope_de_galil%C3%A9e_1592_(cropped).JPG)。
