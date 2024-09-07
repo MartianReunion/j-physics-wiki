@@ -99,6 +99,10 @@
 
 - `upd(something): 修改了错别字(#1919)`
 
+## Commit Recorder相关
+
+本项目使用[CommitRecorder](https://github.com/BsoltB/CommitRecorder)来记录贡献者以及提交的文件。因此您在`git push`之前需要运行`commitrecord`来记录您的提交。
+
 ### 本地部署
 
 本项目使用[Mkdocs](https://github.com/mkdocs/mkdocs)部署在[martianreunion.github.io/j-physics-wiki](https://martianreunion.github.io/j-physics-wiki/)。
