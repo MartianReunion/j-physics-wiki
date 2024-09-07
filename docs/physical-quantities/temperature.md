@@ -62,6 +62,6 @@ $$T=t+273.15$$
 ## 参考资料
 
 - [求闻百科：国际单位制](https://www.qiuwenbaike.cn/wiki/%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6)
-- [求闻百科：三向点](https://www.qiuwenbaike.cn/wiki/%E4%B8%89%E7%9B%B8%E7%82%B9)
+- [求闻百科：三相点](https://www.qiuwenbaike.cn/wiki/%E4%B8%89%E7%9B%B8%E7%82%B9)
 
 已对参考资料进行交叉验证。
