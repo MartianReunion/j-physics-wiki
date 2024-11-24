@@ -64,6 +64,7 @@ nav:
     - 电位差法: exam/dwcf.md
     - 神奇电阻:
        - 不规则电阻: exam/bgzdz.md
+       - 递归电阻: exam/dgdz.md
   - 扩展内容:
     - 简介: extra/intro.md
     - 力的分解: extra/div_force.md
