@@ -2,7 +2,6 @@ name: ci
 on:
   push:
     branches:
-      - master
       - main
 permissions:
   contents: write
@@ -11,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -25,10 +26,9 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-ezlinks-plugin
-      - run: pip3 install mkdocs-git-authors-plugin
+      - run: sh ./setup_env.sh
       - run: mkdocs gh-deploy --force
 # 我也不知道为什么失败了，调试1
 # 又TM失败了，调试2，这东西坑太TM大了，github的安全政策改了，原始文档也改了，但中文翻译没有
 # 前车之鉴：不可以开启gh-pages分支的强制推送保护
+# 前车之鉴2：如果用插件显示贡献者需要将checkout的fetch-depth设置为0，迁出整个仓库

@@ -12,14 +12,16 @@ nav:
   - 介绍:
     - 开始阅读: index.md
     - 教科书逻辑目录: intro/textbook.md
+    - 导读: intro/intro.md
     - 项目方针: intro/policy.md
     - 如何参与编写: intro/how.md
     - 格式手册: intro/format.md
     - 联系方式: intro/contact.md
-    - 网站管理员: intro/administrator.md
-    - 贡献者:
-      - 签名: intro/commiters.md
-      - 列表（由CommitRecorder记录）: commiter_record.md
+    - 网站参与者: intro/participant.md
+  - 物理学基础:
+    - 走进物理世界: base/enter-the-physical-world.md
+    - 初中物理学什么: base/what-to-learn.md
+    - 如何书写物理计算过程: base/how-to-write.md
   - 物理量:
     - 简介: physical-quantities/intro.md
     - 概念: 
@@ -56,6 +58,7 @@ nav:
   - 速查表:
     - 简介: qrt/intro.md
     - 物理量: qrt/physical-quantity.md
+    - 知识点: qrt/knowledge-points.md
   - 考试相关:
     - 简介: exam/intro.md
     - 快速弹簧算法(FSA): exam/fsa.md
@@ -116,6 +119,7 @@ markdown_extensions:
       generic: true
   - attr_list
   - md_in_html
+  - neoteroi.cards
 
 plugins:
   - search
@@ -123,13 +127,14 @@ plugins:
   - git-authors
   
 #extra_javascript:
-#  - javascripts/mathjax.js
+#  - assets/javascripts/mathjax.js
 #  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_javascript:
-  - javascripts/katex.js
+  - assets/javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
+  - assets/css/neoteroi-mkdocs.css

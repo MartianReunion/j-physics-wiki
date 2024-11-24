@@ -112,9 +112,7 @@
 在克隆本项目后请使用
 
 ``` bash
-pip install mkdocs-material
-pip install mkdocs-ezlinks-plugin
-pip3 install mkdocs-git-authors-plugin
+./setup_env.sh
 ```
 
 安装必要的运行环境。
