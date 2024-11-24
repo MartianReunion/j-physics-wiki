@@ -32,11 +32,7 @@
 2. 安装依赖
 
     ``` bash
-    pip install mkdocs-material #安装mkdocs以及material主题
-    
-    #安装使用的插件
-    pip install mkdocs-ezlinks-plugin
-    pip3 install mkdocs-git-authors-plugin
+    ./setup_env.sh
     ```
 
 3. 运行或部署
