@@ -61,7 +61,9 @@ nav:
     - 知识点: qrt/knowledge-points.md
   - 考试相关:
     - 简介: exam/intro.md
-    - 快速弹簧算法(FSA): exam/fsa.md
+    - 浮力压强相关:
+       - 快速弹簧算法(FSA): exam/fsa.md
+       - 对桌面压强以及水对容器底部压强: exam/dzmyq.md
     - 快速单位转换: exam/fcu.md
     - 中考要求: exam/for_zk.md
     - 平均密度: exam/avr_rho.md
